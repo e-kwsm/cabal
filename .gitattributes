@@ -1,5 +1,15 @@
 # https://github.community/t5/GitHub-Actions/git-config-core-autocrlf-should-default-to-false/m-p/30731#M534
 * -text
+*.bat eol=crlf text=auto
+*.c text=auto
+*.cabal text=auto
+*.h text=auto
+*.hs text=auto
+*.md text=auto
+*.project text=auto
+*.rst text=auto
+
+/changelog.d/* text=auto
 
 /Cabal/ChangeLog.md merge=union
 /cabal-install/changelog merge=union
