@@ -7,7 +7,9 @@
 *.hs text=auto
 *.md text=auto
 *.project text=auto
+*.ps1 eol=crlf text=auto
 *.rst text=auto
+*.txt text=auto
 
 /changelog.d/* text=auto
 
